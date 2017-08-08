@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.10"
+    "enzyme": "^2.9.1",
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.2",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "sfcookies": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

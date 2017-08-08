@@ -2,3 +2,12 @@ body {
   text-align: center;
   padding: 5%;
 }
+
+.note {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-style: italic;
+  text-align: left;
+  padding: 8px;
+  margin: 30px;
+}
