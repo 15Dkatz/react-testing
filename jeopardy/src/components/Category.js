@@ -17,7 +17,7 @@ export class Category extends Component {
   }
 
   render() {
-    console.log('category props', this.props);
+    // console.log('category props', this.props);
 
     return (
       <div>

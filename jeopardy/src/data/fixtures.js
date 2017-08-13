@@ -4,6 +4,8 @@ export const categories = [
   { id: 2, title: 'category three' }
 ];
 
+export const category = categories[0];
+
 export const clue = {
   id: 0,
   question: 'q one',
