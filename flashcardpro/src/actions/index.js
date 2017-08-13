@@ -5,7 +5,7 @@ export const ADD_STACK = 'ADD_STACK';
 export function setStack(stack) {
   return {
     type: SET_STACK,
-    stack: stack
+    stack
   };
 }
 
