@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import stacks from '../data/stacks.json';
 import { setStack, loadStacks } from '../actions';
 
-class StackList extends Component {
+export class StackList extends Component {
   componentDidMount() {
     if (this.props.stacks.length === 0) this.props.loadStacks(stacks);
   }

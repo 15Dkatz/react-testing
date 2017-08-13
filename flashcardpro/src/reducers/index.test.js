@@ -13,14 +13,14 @@ describe('root reducer', () => {
   });
 
   it('loads stacks', () => {
-    expect(rootReducer({}, { type: actions.LOAD_STACKS, stacks }))
-      .toEqual({ stack: {}, stacks })
+    expect(rootReducer({}, { type: actions.LOAD_STACKS, stacks}))
+      .toEqual({ stack: {}, stacks });
   });
 
   it('adds a stack', () => {
     const testStack = { title: 'data', cards: [] };
 
     expect(rootReducer({}, { type: actions.ADD_STACK, stack: testStack }))
-      .toEqual({ stack: {}, stacks: [{...testStack, id: 0}] })
+      .toEqual({ stack: {}, stacks: [{...testStack, id: 0}] });
   });
 });
