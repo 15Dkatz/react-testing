@@ -50,7 +50,7 @@ describe('App', () => {
         app.find('.btn').at(1).simulate('click');
       });
 
-      it('adds the new to state', () => {
+      it('adds the new note to the state', () => {
         // console.log(app.state());
         expect(app.state().notes[0].text).toEqual(testNote);
       });
