@@ -46,9 +46,10 @@ describe('App', () => {
         app.find('.btn').at(0).simulate('click');
       });
 
-      afterEach(() => {
-        app.find('.btn').at(1).simulate('click');
-      });
+      // START RECORDING LIKE THIS
+      // afterEach(() => {
+      //   app.find('.btn').at(1).simulate('click');
+      // });
 
       it('adds the new to state', () => {
         // console.log(app.state());
