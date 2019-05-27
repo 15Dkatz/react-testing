@@ -3,7 +3,7 @@
     "title": "State Abbreviations",
     "id": 0,
     "cards": [
-      { "id": 0, "prompt": "Arizona", "answer": "AR" },
+      { "id": 0, "prompt": "Arizona", "answer": "AZ" },
       { "id": 1, "prompt": "California", "answer": "CA" },
       { "id": 2, "prompt": "Hawaii", "answer": "HI" },
       { "id": 3, "prompt": "Kansas", "answer": "KS" },
